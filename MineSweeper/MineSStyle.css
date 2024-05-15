@@ -1,0 +1,39 @@
+#generalDiv {
+    margin: 230px 40% 0px 40%;
+    width: 350px;
+    height: 250px;
+}
+
+#resetButton {
+    margin: 20px 0px 0px 120px;
+    margin-left: 120px;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.mineTile {
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    margin: 1px 0px 1px 0px;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: large;
+}
+
+.mineTile.clicked {
+    color: aliceblue;
+    background-color: rgb(61, 61, 61);
+}
+
+.mineTile.lose {
+    color: red;
+    background-color: rgb(34, 10, 10);
+}
+
+.mineTile.win {
+    color: green;
+    background-color: rgb(34, 10, 10);
+}
